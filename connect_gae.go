@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"appengine"
-	"appengine/urlfetch"
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/urlfetch"
 
 	"gopkg.in/jmcvetta/napping.v3"
 )

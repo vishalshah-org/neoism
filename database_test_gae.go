@@ -6,7 +6,7 @@
 
 package neoism
 
-import "appengine/aetest"
+import "google.golang.org/appengine/aetest"
 
 func dbConnect(url string) (*Database, error) {
 	gaeContext, err := aetest.NewContext(nil)

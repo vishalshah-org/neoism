@@ -10,7 +10,7 @@ import (
 	"log"
 	"testing"
 
-	"appengine/aetest"
+	"google.golang.org/appengine/aetest"
 )
 
 func connectBench(b *testing.B) *Database {
